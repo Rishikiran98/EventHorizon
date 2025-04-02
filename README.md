@@ -156,37 +156,6 @@ Log in with admin credentials.
 
 Access the admin dashboard to add new movies, update existing listings, manage showtimes, and monitor bookings.
 
-Project Structure
-bash
-Copy
-Edit
-EventHorizon/
-├── BackEnd/               # Server-side code
-│   ├── config/            # Configuration files (e.g., database connection)
-│   ├── controllers/       # Request handlers
-│   ├── models/            # Mongoose schemas
-│   ├── routes/            # API routes
-│   ├── middleware/        # Custom middleware
-│   ├── utils/             # Utility functions
-│   └── server.js          # Entry point for the back-end server
-│
-├── FrontEnd/              # Client-side code
-│   ├── public/            # Static files
-│   ├── src/
-│   │   ├── components/    # Reusable React components
-│   │   ├── pages/         # Page components
-│   │   ├── redux/         # State management (actions, reducers, store)
-│   │   ├── App.js         # Main component
-│   │   └── index.js       # Entry point for the front-end application
-│   │
-│   ├── package.json       # Front-end dependencies and scripts
-│   └── .env               # Environment variables for the front-end
-│
-├── README.md              # Project documentation
-└── .gitignore             # Files and directories to ignore in the repository
-Contributing
-Contributions to EventHorizon are welcome! To contribute:
-
 Fork the Repository:
 
 Click the "Fork" button at the top right of the repository page.
